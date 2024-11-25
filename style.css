@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    font-family: 'poppins', sans-serif;
+    overflow-x: hidden;
+  }
+
+  header{
+    background-color: rgb(128, 50, 80);
+  }
+
+  a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+  }
+  .navbar-brand,.navbar-toggler,
+  .text-primary{
+    color: black !important;
+  }
+
+  .nav-link{
+    font-weight: 500;
+    color: black;
+  }
+
+  .btn-primary{
+    background-color: #8a58ca;
+    border: none;
+  }
+
+  .btn-buy{
+    background-color: #8a58ca;
+    border: none;
+    color: white;
+  }
+
+  .btn-link{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+  }
+
+  .nav-link:hover{
+    color: #0a58ca;
+  }
+
+  p{
+    font-size: 18px;
+  }
+
+  .btn-primary:hover{
+    background-color: #257dfd;
+  }
+
+  .blue-bg{
+    background-color: #0a58ca;
+    color: #fff;
+  }
+
+
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    border: none !important;
+    background-color: #0a58ca;
+    color: #fff;
+  }
+
+  .nav-tabs{
+    border: none !important;
+  }
