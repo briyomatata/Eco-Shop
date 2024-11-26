@@ -5,7 +5,7 @@ function sendToWhatsApp(productName, productPrice, productId) {
     var totalPrice = (productPrice * quantity).toFixed(2);  // Calculate total price
 
     // Create the message
-    const message = `I'm interested in ${quantity} pieces of ${productName}m making the total Price: ${totalPrice}.`;
+    const message = `I'm interested in ${quantity} pieces of ${productName} making the total Price: ${totalPrice}.`;
 
     // Encode the message for URL compatibility
     var encodedMessage = encodeURIComponent(message);
