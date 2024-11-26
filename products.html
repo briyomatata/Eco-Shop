@@ -14,7 +14,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="./Images/logo.jpg" alt="Logo" width="150" height="50">
+                <img src="./Images/logo.jpg" alt="Logo" width="110%" height="70px">
               </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -59,7 +59,7 @@
                         <button class="btn btn-primary px-5 py-3 mb-4 d-inline-block">Shop Now</button>
                     </div>
                     <div class="col-12 col-lg-6 text-md-end">
-                        <img src="./Images/butcher.jpg" alt="butcher image" class="img-fluid">
+                        <img src="./Images/pic3.jpg" alt="butcher image" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -82,7 +82,7 @@
                         <label for="quantity" class="form-label">Quantity</label>
                         <input type="number" class="form-control" id="quantity1" value="1" min="1">
                     </div>
-                    <button onclick="sendToWhatsApp('GoatMeat', 550, 1)">Send to WhatsApp</button>
+                    <button class="btn whatsapp-btn" onclick="sendToWhatsApp('GoatMeat', 550, 1)"><i class="fab fa-whatsapp"></i>Shop</button>
                     </div>
                 </div>
 
@@ -102,7 +102,7 @@
                         <label for="quantity" class="form-label">Quantity</label>
                         <input type="number" class="form-control" id="quantity2" value="1" min="1">
                     </div>
-                    <button onclick="sendToWhatsApp('SheepMeat', 650, 2)">Send to WhatsApp</button>
+                    <button class="btn whatsapp-btn" onclick="sendToWhatsApp('SheepMeat', 650, 2)"><i class="fab fa-whatsapp"></i>Shop</button>
                     </div>
                 </div>
 
@@ -122,7 +122,7 @@
                         <label for="quantity" class="form-label">Quantity</label>
                         <input type="number" class="form-control" id="quantity3" value="1" min="1">
                     </div>
-                    <button onclick="sendToWhatsApp('CattleMeat', 750, 3)">Send to WhatsApp</button>
+                    <button class="btn whatsapp-btn" onclick="sendToWhatsApp('CattleMeat', 750, 3)"><i class="fab fa-whatsapp"></i>Shop</button>
                    </div>
                 </div>
 
@@ -143,7 +143,7 @@
                         <input type="number" class="form-control" id="quantity4" value="1" min="1">
                     </div>
 
-                    <button onclick="sendToWhatsApp('Chicken', 850, 4)">Send to WhatsApp</button>
+                    <button class="btn whatsapp-btn" onclick="sendToWhatsApp('Chicken', 850, 4)"><i class="fab fa-whatsapp"></i>Shop</button>
                    </div>
                 </div>
 
@@ -152,6 +152,41 @@
 
         </div>
     </section>
+
+
+    <!-- footer -->
+
+    <footer>
+        <div class="container mt-5 py-5">
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <h3 class="fw-bold pb-3">Visit Us</h3>
+                    <p>Location: Laikipia , Nanyuki</p>
+                    <a href="#" class="teaxt-dark">support@lontanafarm.co.ke</a>
+                </div>
+
+                <div class="col-12 col-lg-4">
+                    <h3 class="fw-bold pb-3">Our links</h3>
+                    <div class="d-flex flex-column">
+                        <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Products</a>
+                    <a href="#">Contact Us</a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-4">
+                    <h3 class="fw-bold pb-3">Our links</h3>
+                    <div class="d-flex flex-row">
+                        <a href="#" class="text-dark px-2"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#" class="text-dark px-2"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="text-dark px-2"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="text-dark px-2"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </footer>
 
 
 

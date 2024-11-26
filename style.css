@@ -14,6 +14,9 @@ body{
   header{
     background-color: rgb(128, 50, 80);
   }
+  nav{
+    background-color: #f8f9fa;
+  }
 
   a{
     list-style: none;
@@ -124,6 +127,34 @@ body{
     margin-top: 20px;
     background-color: #000;
     color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
   }
 
+  footer a{ 
+    color: #fff;
+  }
+
+  footer i{ 
+    color: #fff;
+  }
+
+
+  /* Whatsapp Button */
+  .whatsapp-btn {
+    background-color: #25D366; /* WhatsApp green color */
+    color: white;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  .whatsapp-btn:hover {
+    background-color: #128C7E; /* Darker green on hover */
+    text-decoration: none;
+  }
+  .whatsapp-btn i {
+    margin-right: 8px; /* Space between icon and text */
+  }
 
