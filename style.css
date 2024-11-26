@@ -6,6 +6,11 @@ body{
     overflow-x: hidden;
   }
 
+  .logo{
+    width: 120px;
+    height: auto;
+  }
+
   header{
     background-color: rgb(128, 50, 80);
   }
@@ -121,8 +126,4 @@ body{
     color: #fff;
   }
 
-  #commitment{
-    margin-bottom: 100px;
-    background-color: yellow;
-  }
 
