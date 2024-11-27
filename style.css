@@ -38,6 +38,11 @@ body{
     border: none;
   }
 
+  .btn-shop{
+    background-color: blueviolet;
+    border: none;
+  }
+
   .btn-buy{
     background-color: #8a58ca;
     border: none;
