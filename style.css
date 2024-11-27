@@ -158,3 +158,10 @@ body{
     margin-right: 8px; /* Space between icon and text */
   }
 
+
+
+  /* Mobile */
+  #mobile-hero{
+    background-color: palegreen;
+    padding: 10px 10px;
+  }
