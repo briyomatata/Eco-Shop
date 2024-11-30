@@ -4,7 +4,23 @@
 body{
     font-family: 'poppins', sans-serif;
     overflow-x: hidden;
+    background-color: rgb(148, 184, 179);
+    height: 100%;
   }
+
+  .full-height {
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  }
+
+ #make{
+  
+ }
 
   .logo{
     width: 120px;
@@ -12,7 +28,7 @@ body{
   }
 
   header{
-    background-color: rgb(128, 50, 80);
+    height: 100%;
   }
   nav{
     background-color: #f8f9fa;
@@ -129,21 +145,32 @@ body{
   }
 
   footer{
-    margin-top: 20px;
     background-color: #000;
-    color: #fff;
+    color: white;
+    padding: 10px 0;
+  }
+
+  .footer a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+  }
+
+  .footer a:hover {
+    color: #ff5733;
+  }
+
+  .footer .social-icons i {
+    font-size: 1.5rem;
+  }
+  .content {
+    min-height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
+    flex-direction: column;
   }
 
-  footer a{ 
-    color: #fff;
-  }
-
-  footer i{ 
-    color: #fff;
+  .flex-grow-1 {
+    flex-grow: 1;
   }
 
 
@@ -167,6 +194,5 @@ body{
 
   /* Mobile */
   #mobile-hero{
-    background-color: palegreen;
-    padding: 10px 10px;
+   
   }
