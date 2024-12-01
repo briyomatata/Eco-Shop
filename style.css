@@ -166,6 +166,19 @@ body{
     flex-direction: column;
   }
 
+  .hero{
+    margin-top: 50px;
+  }
+
+  .pic{
+    margin-bottom: 50px;
+  }
+
+  .intro{
+    margin-bottom: 50px;
+    align-items: center;
+  }
+
   .flex-grow-1 {
     flex-grow: 1;
   }
@@ -188,8 +201,23 @@ body{
   }
 
 
+  /* offer section */
+.offer-section {
+  margin-top: 20px;
+  text-align: center;
+  align-items: center;
+}
 
-  /* Mobile */
-  #mobile-hero{
-   
-  }
+.offer-paragraph {
+  display: none;
+  transition: opacity 1s ease-in-out;
+}
+
+.active-offer {
+  display: block;
+}
+
+.offer-paragraph p {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
